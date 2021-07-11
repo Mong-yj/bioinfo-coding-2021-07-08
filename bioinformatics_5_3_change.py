@@ -95,7 +95,6 @@ for k, v in d_base.items():
 print(cmp_seq)
 
 cmp_rev_seq = cmp_seq[::-1]
-inter = len(dna_to_protein(cmp_rev_seq))
 print(dna_to_protein(cmp_rev_seq)[::-1])
 print("  " + dna_to_protein(cmp_rev_seq[1:])[::-1])
 print(" " + dna_to_protein(cmp_rev_seq[2:])[::-1])
